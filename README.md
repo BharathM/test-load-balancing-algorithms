@@ -1,1 +1,3 @@
 # test-load-balancing-algorithms
+
+It was told and hardcoded in our brain that K8s service automatically load balance the requests. My teams in the prganization were complaining that, load is not getting distributed equally among the pods. Initially, I thought the work loads were not equal, so few pods were taking more CPU than others. Outof curosity, just started to understand how load balancing(LB) workes in the K8s. Previous, I have worked on F5 and Apache(mod proxy) load balancers. If ther is a load balancing ther should be an LB algorithm associated with it. I coualdn't find any provision to place the LB algorithm in the Service defination.
